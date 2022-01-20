@@ -19,7 +19,7 @@ class AddContact extends React.Component {
       this.state.phone === "" ||
       this.state.email === ""
     ) {
-      alert("All the fields are required MF");
+      alert("My Guy, All the fields are required..");
       return;
     }
     this.props.addContactHandler(this.state);
