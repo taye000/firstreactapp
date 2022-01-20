@@ -9,7 +9,7 @@ const ContactList = (props) => {
       <ContactCard contact={contact}></ContactCard>
     );
   });
-  return <div className="ui celled list">{renderContactList}</div>;
+  return <div className="ui celled list"><h2>Contact List</h2>{renderContactList}</div>;
 };
 
 export default ContactList;
